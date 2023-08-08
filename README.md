@@ -1,2 +1,2 @@
-# Food-App
- Food App Web
+# Salon-App
+ Salon App

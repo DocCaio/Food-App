@@ -1,0 +1,11 @@
+@import url("/assets/style/varaibles.css");
+
+header {
+    background: var(--light);
+    
+}
+
+.btn-header {
+    border-radius: 50px;    
+    background: var(--btn-primary);
+}
