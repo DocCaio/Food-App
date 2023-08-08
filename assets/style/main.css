@@ -1,0 +1,15 @@
+@import url("/assets/style/varaibles.css");
+
+main {
+    text-align: center;
+}
+
+.span-main{
+    
+    font-family: var(--ff);
+    color: var(--primary);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    
+}

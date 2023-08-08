@@ -5,7 +5,35 @@ header {
     
 }
 
+h1 {
+    color: var(--black);
+    font-family: var(--ff);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+strong {
+    color: var(--primary);
+    font-family: var(--ff);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p {
+    color: var(--textlight);    
+    font-family: var(--ff);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .btn-header {
     border-radius: 50px;    
-    background: var(--btn-primary);
+    background: var(--primary);
 }
+

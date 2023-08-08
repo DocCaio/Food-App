@@ -1,8 +1,11 @@
 @import url("/assets/style/header.css");
+@import url("/assets/style/main.css");
 
 :root {
 
     --ff:'Readex Pro', sans-serif;
     --light:#FFF9EA;
-    --btn-primary:#FFCB45;
+    --primary:#FFCB45;
+    --black: #1D1D1D;
+    --textlight:rgba(29, 29, 29, 0.70);
 }
