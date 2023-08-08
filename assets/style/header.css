@@ -32,8 +32,24 @@ p {
     line-height: normal;
 }
 
-.btn-header {
+a {
+    text-decoration: none;
+    color: var(--black);
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.btn-header {    
+    padding: 8px 46px;
+    font-family: var(--ff);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     border-radius: 50px;    
     background: var(--primary);
+    
 }
 
