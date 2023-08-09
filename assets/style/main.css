@@ -4,6 +4,17 @@ main {
     text-align: center;
 }
 
+h2 {
+    color: var(--black);
+text-align: center;
+
+font-family: var(--ff);
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
 .span-main{
     
     font-family: var(--ff);
@@ -13,3 +24,40 @@ main {
     font-weight: 500;
     
 }
+
+h3 {
+    color: var(--black);
+text-align: center;
+font-family: var(--ff);
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.div__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 280px;
+height: 371px;
+flex-shrink: 0;
+background: #F1F1F1;
+border-radius: 10px; 
+
+
+}
+
+.div__cad-link {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    gap: 4em;
+}
+
+#bnt {
+    margin-top: 1em;
+}
+
+
+
