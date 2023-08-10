@@ -53,3 +53,16 @@ a {
     
 }
 
+@media (min-width: 1440px) {
+
+    .sec-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+  
+
+}
+
+
