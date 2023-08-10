@@ -32,3 +32,41 @@ box-shadow: 0px 4px 12px 0px rgba(29, 29, 29, 0.15);
 background: #FFCB45;
 box-shadow: 0px 4px 24px 0px rgba(29, 29, 29, 0.25);
 }
+
+ul {        
+    list-style-type: none;
+}
+
+.div-link {
+    
+   text-align: center;
+}
+
+
+
+
+.client-containner {
+    display: flex;
+   
+}
+
+.client {
+    flex-direction: column;    
+    text-align: center;
+}
+
+.client-card {
+    flex-direction: column;
+}
+
+@media (min-width: 1440px) {
+
+   
+
+.containner-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+}

@@ -53,14 +53,20 @@ a {
     
 }
 
+.plates {
+    display: none;
+}
+
+
 @media (min-width: 1440px) {
 
     .sec-header {
         display: flex;
         justify-content: space-between;
     }
-
-
+    .plates {
+        display: block;
+    }
   
 
 }
