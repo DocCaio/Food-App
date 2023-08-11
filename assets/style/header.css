@@ -53,22 +53,63 @@ a {
     
 }
 
+.sec-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-nav {
+    margin-top: 1em;
+}
+
+
 .plates {
+    display: none;
+}
+
+ .div-nav-link {
     display: none;
 }
 
 
 @media (min-width: 1440px) {
 
-    
+    .div-nav-link {
+        display: block;
+        color: var(--textlight);
+        /* title2 */
+        font-family: Readex Pro;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
 
-    .sec-header {
+    .containner-nav {
         display: flex;
         justify-content: space-around;
+    }
+
+    .lista-nav {
+        display: flex;
+        gap: 1em;
+    }
+
+    .div-nav-link {
+       gap: 1em;
+        
+    }
+
+    #btn-link{
+        margin: 1em;
     }
     .plates {
         display: block;
     }
+
+
+
+    
   
 
 }

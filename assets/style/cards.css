@@ -46,10 +46,16 @@
 
   .grid-container {
     display: none;
-}
+  }
+
+  .client {
+    margin-top: 1em;
+  }
+
 
 @media (min-width: 1440px) {  
-    
+
+  
     .containner-cards {
         display: flex;
         align-items: center;
@@ -95,6 +101,16 @@
         max-width: 100%;
         max-height: 100%;
       }
+
+      .client-card {
+        width: 20vw;
+      }
+
+      .containner-cards {
+        margin: 1em;
+      }
+
+     
       
 
 }

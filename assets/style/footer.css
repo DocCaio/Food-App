@@ -59,14 +59,20 @@ ul {
     flex-direction: column;
 }
 
-@media (min-width: 1440px) {
+.div-footer {
+  display: none;
+}
 
-   
+@media (min-width: 1440px) {   
 
 .containner-3 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.div-footer {
+    display: block;
 }
 
 }
