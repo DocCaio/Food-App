@@ -55,6 +55,11 @@
 
 @media (min-width: 1440px) {  
 
+  .client-containner {
+    text-align: center;
+    align-items: center;
+  }
+
   
     .containner-cards {
         display: flex;
