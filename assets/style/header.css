@@ -5,6 +5,17 @@ header {
     
 }
 
+li {
+    list-style: none;
+    padding: .3rem 1rem;
+  }
+  
+ 
+  
+  li:hover a{
+    text-decoration: underline;
+  }
+
 /*.menu__button {
     padding: 5px;
     background: transparent;
