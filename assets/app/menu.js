@@ -1,12 +1,12 @@
-const botao = document.querySelector('.menu__button')
+const button = document.querySelector('#menu__button')
 
-botao.addEventListener('click', funcaoCallback)
+button.addEventListener('click', funcaoCallback)
 
 function funcaoCallback() {
-    const menuNav = document.querySelector('.menu__nav')
-    menuNav.classList.toggle('nav-active')
-  
-    button.textContent === "Abrir"
-      ? button.textContent = "Fechar"
-      : button.textContent = "Abrir"
-  }
+  const menuNav = document.querySelector('.div-nav-links')
+  menuNav.classList.toggle('nav-active')
+
+  button.textContent === "Abrir"
+    ? button.textContent = "Fechar"
+    : button.textContent = "Abrir"
+}
