@@ -3,6 +3,8 @@
 main {
     margin-top: 1em;
     text-align: center;
+    overflow: hidden;
+   
 }
 
 h2 {
