@@ -16,6 +16,8 @@
 
 
 .containner-cards-link {
+  display: flex;
+  flex-direction: column;   
   gap: 1em;
 }
 
@@ -69,7 +71,8 @@
 
     .containner-cards-link {
         display: flex;
-       flex-direction: row;
+        flex-direction: row;
+        
     }
 
     
