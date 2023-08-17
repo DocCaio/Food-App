@@ -1,0 +1,15 @@
+@import url("/assets/style/header.css");
+@import url("/assets/styles/forms.css");
+@import url("/assets/styles/cadastro.css");
+@import url("/assets/style/footer.css");
+
+
+
+:root {
+
+    --ff:'Readex Pro', sans-serif;
+    --light:#FFF9EA;
+    --primary:#FFCB45;
+    --black: #1D1D1D;
+    --textlight:rgba(29, 29, 29, 0.70);
+}
