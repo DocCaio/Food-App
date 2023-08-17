@@ -9,14 +9,14 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    color: var(--laranja)
+    color: var(--primary)
 }
 
 .principal__subtitulo {
     font-weight: 700;
     font-size: 17px;
     line-height: 26px;
-    color: var(--azul);
+    color: var(--black);
     margin: 3em 0 2em 0;
 }
 
@@ -25,12 +25,12 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    color: var(--azul);
+    color: var(--black);
     margin-left: 1em;
 }
 
 .campo__escrita {
-    border: 1px solid var(--azul);
+    border: 1px solid var(--black);
     border-radius: 24px;
     padding: 1em;
     width: 100%;
@@ -46,13 +46,13 @@
 }
 
 .formulario__botao {
-    background: var(--laranja);
+    background: var(--primary);
     padding: 1em 4em;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     border: none;
-    color: var(--branco);
+    color: var(--light);
     cursor: pointer;
     float: right;
 }
@@ -67,7 +67,7 @@
     width: 16px;
     height: 16px;
     margin: 0 .5em;
-    background-image: url('../img/warning.png');
+    background-image: url('/assets/img/warning.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -75,5 +75,5 @@
 .erro__texto {
     font-size: 12px;
     line-height: 18px;
-    color: var(--vermelho);
+    color: red;
 }
